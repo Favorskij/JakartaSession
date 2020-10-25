@@ -10,7 +10,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 
 //Тут мы получаем Session
-@Path("Session")
+@Path("/Session")
 public class MySession {
 
 	@GET
